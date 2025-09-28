@@ -1,6 +1,9 @@
 <template>
     <!-- HTML code here -->
-      <Person/>
+    <div class="app">
+        <h1> 你好呀！！</h1>
+        person组件： <Person></Person>
+    </div>
 </template>
 
 <script  lang="ts">
@@ -13,6 +16,10 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 /* CSS code here */
+.app {
+    text-align: center;
+    margin-top: 40vh;
+}
 </style>
